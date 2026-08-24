@@ -10,9 +10,11 @@ stats.json
 stats.md
 report*.md
 
-# 示例目录整体豁免（里面全是合成数据）
+# 项目自身的文档与示例整体豁免（上面的裸模式只为拦用户数据）
 !examples/
 !examples/**
+!references/
+!references/**
 
 # 常规
 __pycache__/
