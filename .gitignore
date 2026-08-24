@@ -1,0 +1,22 @@
+# 你的数据永远不进版本控制
+work/
+work-*/
+*.local.json
+NAMEMAP*
+me.jsonl
+raw.jsonl
+corpus.md
+stats.json
+stats.md
+report*.md
+
+# 示例目录整体豁免（里面全是合成数据）
+!examples/
+!examples/**
+
+# 常规
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
